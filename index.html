@@ -1,59 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/reset.css"/>
+        <link rel="stylesheet" href="./styles/main.css"/>
+        <script src="./js/index.js" defer></script>
+        <title>Step Project Ham</title>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="header__wrap">
+                <div class="container">
+                    <header class="header">
+                        <a class="header__logo">
+                            <span class="header__logo-figure">H</span>
+                            <span class="header__logo-text">the<span>Ham</span></span>
+                        </a>
+                        <nav class="header__nav">
+                            <ul class="header__list">
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Home</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">About</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Blog</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Skills</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Service</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Work</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">Testimonial</a>
+                                </li>
+                                <li class="header__item">
+                                    <a href="#" class="header__link">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="22px" height="20px">
+                                            <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul> 
+                        </nav>
+                    </header>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="hero__box">
+                    <p class="hero__desc">The Ham is <span>Wordpress theme</span></p>
+                    <h2 class="hero__caption">we are creative</h2>
+                    <p class="hero__text">Just Buy And Enjoy These Awesome Features</p>
+                    <div class="hero__buttons">
+                        <button type="button" class="btn">EXPLORE NOW</button>                
+                        <button type="button" class="btn btn--blue">purchase now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main>
+            <section class="different">
+                <div class="different__card">
+                    <a href="#" class="different__link">
+                        <img src="./img/different/finger.png" alt="">
+                        <p class="different__desc">Different theme option</p>
+                    </a>
+                </div>
+                <div class="different__card">
+                    <a href="#" class="different__link">
+                        <img src="./img/different/crystall.png" alt="">
+                        <p class="different__desc different__desc-second">fully customizable</p>
+                    </a>
+                </div>
+                <div class="different__card">
+                    <a href="#" class="different__link">
+                        <img src="./img/different/lamp.png" alt="">
+                        <p class="different__desc ">unlimited support</p>
+                    </a>
+                </div>
+                <div class="different__card">
+                    <a href="#" class="different__link">
+                        <img src="./img/different/devices.png" alt="">
+                        <p class="different__desc different__desc-second">responsive all device</p>
+                    </a>
+                </div>
+            </section>
+            <section class="ourServices">
+                <div class="container">
+                    <div class="box-head">
+                        <h2 class="box-head__caption">Our Services</h2>
+                    </div>
+                    <div class="ourServices__wrap">
+                        <ul class="ourServices__tabs">
+                            <li class="ourServices__title ourServices__active" data-name="Web Design">Web Design</li>
+                            <li class="ourServices__title" data-name="Graphic Design">Graphic Design</li>
+                            <li class="ourServices__title" data-name="Online Support">Online Support</li>
+                            <li class="ourServices__title" data-name="App Design">App Design</li>
+                            <li class="ourServices__title" data-name="Online Marketing">Online Marketing</li>
+                            <li class="ourServices__title" data-name="Seo Service">Seo Service</li>
+                        </ul>
+                        <ul class="ourServices__content">                        
+                            <li class="ourServices__tab js-tabactive" data-name="Web Design">
+                                <div class="ourServices__tab-img-wrap">
+                                    <img src="./img/webDesign/web-design1.jpg" alt="#">
+                                </div>
+                                <p class="ourServices__tab-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </li>
+                            <li class="ourServices__tab" data-name="Graphic Design">
+                                <div class="ourServices__tab-img-wrap">
+                                    <img src="./img/webDesign/web-design2.jpg" alt="#">
+                                </div>
+                                <p class="ourServices__tab-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae vel dignissimos, quo quia maiores, ipsum repellendus voluptatibus quam ea ratione, earum eaque vitae? Suscipit sed minus ut. ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, vel. Id corrupti accusantium tenetur dolores.</p>
+                            </li>
+                            <li class="ourServices__tab" data-name="Online Support">
+                                <div class="ourServices__tab-img-wrap">
+                                    <img src="./img/webDesign/web-design3.jpg" alt="#">
+                                </div>
+                                <p class="ourServices__tab-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iste totam beatae accusamus consequatur, animi odio, dignissimos, aliquid labore alias non et corrupti quis ducimus? ipsum, dolor sit amet consectetur adipisicing elit. Esse dolorem vitae, quaerat est cupiditate voluptates non enim assumenda blanditiis, maxime maiores numquam facilis ipsam quod. ipsum dolor sit, amet consectetur adipisicing elit. Adipisci tempora hic ullam fugit illum vero consequatur quo provident dolor quasi quibusdam, veniam perspiciatis quaerat consectetur.</p>
+                            </li>
+                            <li class="ourServices__tab" data-name="App Design">
+                                <div class="ourServices__tab-img-wrap">
+                                    <img src="./img/webDesign/web-design4.jpg" alt="#">
+                                </div>
+                                <p class="ourServices__tab-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, cupiditate. Accusantium nobis architecto inventore? Optio placeat maiores, ipsum enim sapiente quo perspiciatis, sequi, corrupti saepe nisi quisquam. ipsum dolor sit amet consectetur. ipsum dolor sit amet consectetur, adipisicing elit. Eligendi enim tempore commodi accusamus inventore quas quo quis.</p>
+                            </li>
+                            <li class="ourServices__tab" data-name="Online Marketing">
+                                <div class="ourServices__tab-img-wrap">
+                                    <img src="./img/webDesign/web-design5.jpg" alt="#">
+                                </div>
+                                <p class="ourServices__tab-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facilis quos cumque vel deserunt accusantium nesciunt sed asperiores, cum dolorum reprehenderit temporibus voluptatem ullam sequi veritatis totam a, fugit ut.</p>
+                            </li>
+                            <li class="ourServices__tab" data-name="Seo Service">
+                                <div class="ourServices__tab-img-wrap">
+                                    <img src="./img/webDesign/web-design6.jpg" alt="#">
+                                </div>
+                                <p class="ourServices__tab-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, inventore modi. Corporis eius blanditiis voluptatum nemo iure, labore nisi atque perferendis soluta similique quis voluptatem ex debitis!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="everything">
+                <h2 class="everything__caption">Everything is ready. just buy and install now</h2>
+                <p class="everything__desc">Smooth reliable, responsive ready, perfect portfolio, unique blog layout and many many options for you</p>
+                <div class="everything__btn">
+                    <button type="button" class="btn">purchase now</button> 
+                </div>
+            </section>
+            <section class="amazingWork">
+                <div class="container">
+                    <div class="box-head">
+                        <h2 class="box-head__caption">Our Amazing Work</h2>
+                    </div>
+                    <div class="amazingWork__wrap">
+                        <ul class="amazingWork__tabs">
+                            <li class="amazingWork__title amazingWork__active" data-alt="All" data-all="All">All</li>
+                            <li class="amazingWork__title" data-alt="Graphic Design">Graphic Design</li>
+                            <li class="amazingWork__title" data-alt="Web Design">Web Design</li>
+                            <li class="amazingWork__title" data-alt="Landing Pages">Landing Pages</li>
+                            <li class="amazingWork__title" data-alt="Wordpress">Wordpress</li>
+                        </ul>
+                        <div class="amazingWork__content">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" sizes="16x16"
-    href="./images/depositphotos_130620328-stock-illustration-meditation-icon-human-meditating-in.jpg">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
-  <title>Візити до лікаря</title>
-  <link rel="stylesheet" href="./css/main.css" />
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script type="module" src="./js/main.js"></script>
+                        </div>
+                        <div class="amazingWork__buttons">
+                            <button type="button" class="btn btn--amazingWork">
+                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 6.99735H9.99996V1.49787C9.99996 1.22194 9.77611 0.997242 9.49998 0.997242H6.4999C6.22387 0.997242 5.99991 1.22194 5.99991 1.49787V6.99735H0.499994C0.223838 6.99735 7.98702e-06 7.22206 7.98702e-06 7.4984V10.4976C7.98702e-06 10.7731 0.223838 10.9974 0.499994 10.9974H5.99991V16.4977C5.99991 16.7732 6.22387 16.998 6.4999 16.998H9.49998C9.77611 16.998 9.99996 16.7732 9.99996 16.4977V10.9974H15.5C15.776 10.9974 16 10.7731 16 10.4976V7.4984C16 7.22206 15.776 6.99735 15.5 6.99735Z" fill="white"/>
+                                </svg>        
+                            Load More
+                            </button>
+                            <div class="lds-dual-ring" id="preloader"></div>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+            <section class="breakingNews">
+                <div class="container">
+                    <div class="box-head">
+                        <h2 class="box-head__caption">Breaking News</h2>
+                    </div>
+                    <div class="breakingNews__wrap">
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/1.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/2.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/3.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/4.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/5.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/6.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/7.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                        <a class="breakingNews__card">
+                            <div class="breakingNews__img-wrap">
+                                <img src="./img/breakingNews/8.jpg" alt="breakingNews" class="breakingNews__img">
+                                <span>12 <br> Feb</span>
+                            </div>
+                            <h3 class="breakingNews__caption">Amazing Blog Post</h3>
+                            <pre class="breakingNews__text">By admin    |    2 comment</pre>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="peopleSay">
+                <div class="container">
+                    <div class="peopleSay__row">
+                    <div class="box-head">
+                        <h2 class="box-head__caption peopleSay__caption">What People Say About theHam</h2>
+                    </div>
+                    <svg width="44" height="31" viewBox="0 0 44 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.65845 11.9026C14.9691 11.9026 19.2741 16.1757 19.2741 21.4484C19.2741 26.7195 14.9691 30.993 9.65845 30.993C4.34797 30.993 0.0429109 26.7195 0.0429109 21.4484L0 20.0841C0 9.54111 8.61007 0.993652 19.2312 0.993652V6.44727C15.562 6.44727 12.1124 7.86613 9.51792 10.4424C9.0185 10.9377 8.56269 11.466 8.15163 12.0211C8.64259 11.9451 9.14578 11.9026 9.65845 11.9026ZM34.3844 11.9026C39.6949 11.9026 43.9999 16.1757 43.9999 21.4484C43.9999 26.7195 39.6949 30.993 34.3844 30.993C29.0738 30.993 24.7687 26.7195 24.7687 21.4484L24.7258 20.0841C24.7258 9.54111 33.336 0.993652 43.957 0.993652V6.44727C40.2879 6.44727 36.8383 7.86613 34.2438 10.4424C33.7443 10.9377 33.2886 11.466 32.8774 12.0211C33.3685 11.9451 33.8715 11.9026 34.3844 11.9026Z" fill="#18CFAB"/>
+                    </svg>
+                    <div class="peopleSay__card-wrap">
+                        <div class="peopleSay__wrapper">
+                
+                        </div>
+                    </div>
+                    <div class="slider-wrap">
+                        <div class="slider">
+                            <button class="js-prev">
+                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50764 12.5076L7.81261 11.1056L3.52463 6.49631L7.81261 1.88987L6.50764 0.486695L0.91457 6.49631L6.50764 12.5076Z" fill="#BBBBBB"/>
+                                </svg>
+                            </button>
+                            <div class="slider__img-wrapper"></div>
+                            <button class="js-next">
+                                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.49213 0.48752L0.18704 1.88987L4.47503 6.49714L0.18704 11.1056L1.49213 12.5084L7.08508 6.49714L1.49213 0.48752Z" fill="#BBBBBB"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
 
-<body>
-  <header>
-    <div class="logo">
-      <img src="./images/logo.svg" alt="Логотип" />
-      <h1 class="logo-title">Медікарта</h1>
-    </div>
-    <div class="btns">
-      <button id="addVisitButton">Додати візит</button>
-      <button id="loginButton">Вхід</button>
-      <button id="logOutButton">Вихід</button>
-    </div>
-  </header>
-
-  <div class="filter-form">
-    <input type="text" id="searchInput" placeholder="Пошук" />
-    <select id="statusSelect">
-      <option value="">Статус</option>
-      <option value="open">Відкритий</option>
-      <option value="done">Виконаний</option>
-    </select>
-    <select id="prioritySelect">
-      <option value="prior">Пріоритет</option>
-      <option value="high">Високий</option>
-      <option value="normal">Звичайний</option>
-      <option value="low">Низький</option>
-    </select>
-  </div>
-
-  <div class="no-items hidden">No items have been added.</div>
-
-  <div id="visitList" class="visit-list">
-  </div>
-
-  <!-- Модальне вікно для входу -->
-  <div id="loginModal" class="modal">
-  </div>
-
-  <!-- Модальне вікно для створення візиту -->
-  <div id="createVisitModal">
-    <!-- Вміст модального вікна для створення візиту -->
-  </div>
-</body>
-
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__info">© Copyright 2015 <span>theHam </span>  |  All Rights Reserved</p>
+        </footer>
+    </body>
 </html>
